@@ -1,0 +1,53 @@
+body{
+	border:2px solid;
+    margin-top: 20px;
+    height: 60px;
+    width:auto;
+  }
+
+.dropdown:hover .sub-menu {
+    display: block;
+
+  }
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 90px;
+    border:1px solid gray;
+  }
+
+.sub-menu a{
+	text-align: center;
+	width:103px;
+  }
+  
+.sub-menu a:hover{
+	background-color: white;
+	width:103px;
+  }
+
+ul {
+    list-style-type: none;
+    margin-top: 22px;   
+  }
+
+li {
+    float: left;
+   }
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color:#87CEFA;
+    height:32px;
+    width:105px;
+    font-size: 13px;
+    }
+
+.gap{
+  padding-left:3px;
+   }
+
