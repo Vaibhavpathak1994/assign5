@@ -1,7 +1,7 @@
 body{
-	border:2px solid;
+    border:2px solid;
     margin-top: 20px;
-    height: 80px;
+    height: 110px;
     width:auto;
   }
 
@@ -18,37 +18,51 @@ body{
   }
 
 .sub-menu a{
-	text-align: center;
-	width:103px;
+  text-align: center;
+  width:93px;
   }
 
 .sub-menu a:hover{
-	background-color: white;
-	width:103px;
+  background-color: white;
+  width:93px;
   }
 
 ul {
     list-style-type: none;
-    margin-top: 22px;   
+    margin-top:50px;
+     
   }
 
 li {
+     list-style-type: none;
+    margin: 2px;
+    overflow: hidden;
+    background-color:#f1f1f1;
     float: left;
    }
 
-li a {
-    display: block;
+ a {
+   display: block;
     color: black;
     text-align: center;
+    padding:10px 10px;
     text-decoration: none;
     background-color:#87CEFA;
-    height:35px;
-    width:105px;
-    padding-top:17px;
-    font-size: 13px;
+    height:30px;
+    width:95px;
+    font-size: 12px;
     }
-
+    #id2{
+      vertical-align: text-top;
+      padding-top: 14px;
+    }
+  #id1{
+  padding-top: 15px;
+}
 .gap{
-  padding-left:3px;
+  margin-left: 2px;
+   
    }
-
+#incenter{
+  margin-top: 8px;
+}
